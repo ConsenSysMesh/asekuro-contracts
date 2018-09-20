@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "declaration": true,
+        "declarationDir": "./dist/types",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "lib": [
+            "es2015",
+            "es2016",
+            "es2017"
+        ],
+        "module": "commonjs",
+        "baseUrl": ".",
+        "rootDir": ".",
+        "target": "es6",
+        "types": []
+    },
+    "files": [
+        "node_modules/web3-typescript-typings/index.d.ts",
+        "artifacts/index.ts",
+        "artifacts/ts/AsekuroHub.ts",
+        "artifacts/ts/PolicyRegistry.ts",
+        "artifacts/ts/PremiumRouter.ts",
+        "artifacts/ts/ContractRegistry.ts",
+        "artifacts/ts/PolicyContract.ts",
+        "artifacts/ts/PolicyToken.ts",
+        "artifacts/ts/SingleCoverageExamplePolicy.ts"
+    ]
+}

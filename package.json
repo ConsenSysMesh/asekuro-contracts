@@ -1,0 +1,45 @@
+{
+  "name": "@asekuro/contracts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/artifacts/index.js",
+  "typings": "dist/types/artifacts/index.d.ts",
+  "file": [
+    "build",
+    "dist",
+    "artifacts",
+    "contracts",
+    "migrations",
+    "scripts",
+    "tsconfig.dist.json",
+    "truffle-config.js"
+  ],
+  "scripts": {
+    "deploy": "bash scripts/deploy_contracts.sh",
+    "dist": "bash scripts/prepare_dist.sh",
+    "generate-typings": "abi-gen --abis './build/contracts/*.json' --out './types/generated' --template './types/contract_templates/contract.mustache' --partials './types/contract_templates/partials/*.mustache'",
+    "transpile": "rm -rf ./transpiled; copyfiles ./build/**/* ./transpiled; tsc",
+    "compile": "truffle compile --all",
+    "migrate": "truffle migrate",
+    "test": "npm run compile; npm run generate-typings; npm run transpile; npm run migrate; truffle test",
+    "prepublishOnly": "npm run dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.0.0-rc.1",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.0"
+  },
+  "devDependencies": {
+    "@0xproject/abi-gen": "0.2.3",
+    "@0xproject/types": "^0.1.1",
+    "@0xproject/utils": "^0.1.0",
+    "@types/bignumber.js": "^4.0.3",
+    "bignumber.js": "^7.2.1",
+    "copyfiles": "^1.2.0",
+    "lodash": "^4.17.11",
+    "typescript": "^3.0.3",
+    "web3": "^0.19.0",
+    "web3-typescript-typings": "^0.10.2"
+  }
+}

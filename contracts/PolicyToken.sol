@@ -31,8 +31,8 @@ contract PolicyToken is ERC721Full, Pausable {
         address _resolver,
         address _underwriter,
         uint _underwriterRiskRating,
-        address _policyContract,
-        bytes32 _policyContractParameters,
+        address _policyTemplate,
+        bytes32[3] _policyTemplateParameters,
         uint _salt
     )
         public
@@ -46,8 +46,8 @@ contract PolicyToken is ERC721Full, Pausable {
             _resolver,
             _underwriter,
             _underwriterRiskRating,
-            _policyContract,
-            _policyContractParameters,
+            _policyTemplate,
+            _policyTemplateParameters,
             _salt
         );
 

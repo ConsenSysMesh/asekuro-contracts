@@ -1,21 +1,21 @@
 pragma solidity ^0.4.18;
 
-import "./PolicyContract.sol";
+import "./PolicyTemplateContract.sol";
 import "./PolicyToken.sol";
 
 import "../node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol";
 import "../node_modules/openzeppelin-solidity/contracts/lifecycle/Pausable.sol";
 import "../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol";
 
-contract AsekuroHub is Pausable, Ownable {
+contract AsekuroBroker is Pausable, Ownable {
     using SafeMath for uint;
 
     PolicyToken public policyToken;
 
     event  LogPolicyOrderFilled(
         bytes32 indexed _policyId,
-        uint _coverageAmount,
-        address _coverageToken,
+        address _claimToken,
+        address _premiumToken,
         address indexed _underwriter,
         uint _underwriterFee,
         address _resolver,
@@ -25,13 +25,13 @@ contract AsekuroHub is Pausable, Ownable {
     );
 
     struct Declaration {
-        address version;
+        address version; // address of premiumRouter
         address insured;
         address resolver;
         address underwriter;
         uint underwriterRiskRating;
-        address policyContract;
-        bytes32 policyContractParameters;
+        address policyTemplate;
+        bytes32[3] policyTemplateParameters;
         uint salt;
         bytes32 policyId;
     }
@@ -41,8 +41,7 @@ contract AsekuroHub is Pausable, Ownable {
         uint underwriterFee;
         uint relayerFee;
         uint resolverFee;
-        uint coverageAmount;
-        address premiumToken;
+        address premiumToken; // also used for fees
         address claimToken;
         address relayer;
         uint expirationTimestampInSec;
@@ -62,8 +61,8 @@ contract AsekuroHub is Pausable, Ownable {
     function fillPolicyOrder(
         address carrier,
         address[8] orderAddresses,
-        uint[7] orderValues,
-        bytes32[1] orderBytes32,
+        uint[6] orderValues,
+        bytes32[3] orderBytes32,
         uint8[3] signaturesV,
         bytes32[3] signaturesR,
         bytes32[3] signaturesS
@@ -78,12 +77,12 @@ contract AsekuroHub is Pausable, Ownable {
         // TODO
         
         // Mint policy token and finalize policy agreement
-        issuePolicy(carrier, policyOrder.declaration);
+        bindPolicy(carrier, policyOrder.declaration);
         
         // register policy start
-        if (policyOrder.declaration.policyContract != address(0)) {
+        if (policyOrder.declaration.policyTemplate != address(0)) {
             require(
-                PolicyContract(policyOrder.declaration.policyContract)
+                PolicyTemplateContract(policyOrder.declaration.policyTemplate)
                     .registerPolicyStart(
                         policyOrder.declaration.policyId,
                         policyOrder.declaration.insured
@@ -99,8 +98,8 @@ contract AsekuroHub is Pausable, Ownable {
 
         emit LogPolicyOrderFilled(
             policyOrder.declaration.policyId,
-            policyOrder.coverageAmount,
             policyOrder.claimToken,
+            policyOrder.premiumToken,
             policyOrder.declaration.underwriter,
             policyOrder.underwriterFee,
             policyOrder.declaration.resolver,
@@ -115,7 +114,7 @@ contract AsekuroHub is Pausable, Ownable {
     ////////////////////////////
     //// INTERNAL FUNCTIONS ////
     ////////////////////////////
-    function issuePolicy(address carrier, Declaration declaration)
+    function bindPolicy(address carrier, Declaration declaration)
         internal
         returns (bytes32 _policyId)
     {
@@ -127,8 +126,8 @@ contract AsekuroHub is Pausable, Ownable {
             declaration.resolver,
             declaration.underwriter,
             declaration.underwriterRiskRating,
-            declaration.policyContract,
-            declaration.policyContractParameters,
+            declaration.policyTemplate,
+            declaration.policyTemplateParameters,
             declaration.salt
         );
 
@@ -142,10 +141,10 @@ contract AsekuroHub is Pausable, Ownable {
         address insured,
         address resolver,
         address underwriter,
-        address policyContract,
+        address policyTemplate,
         uint underwriterRiskRating,
         uint salt,
-        bytes32 policyContractParameters
+        bytes32[3] policyTemplateParameters
     )
         internal
         pure
@@ -157,8 +156,8 @@ contract AsekuroHub is Pausable, Ownable {
             resolver: resolver,
             underwriter: underwriter,
             underwriterRiskRating: underwriterRiskRating,
-            policyContract: policyContract,
-            policyContractParameters: policyContractParameters,
+            policyTemplate: policyTemplate,
+            policyTemplateParameters: policyTemplateParameters,
             salt: salt,
             policyId: getPolicyId(
                 version,
@@ -166,16 +165,16 @@ contract AsekuroHub is Pausable, Ownable {
                 resolver,
                 underwriter,
                 underwriterRiskRating,
-                policyContract,
+                policyTemplate,
                 salt,
-                policyContractParameters
+                policyTemplateParameters
             )
         });
 
         return declaration;
     }
 
-    function getPolicyOrder(address[8] orderAddresses, uint[7] orderValues, bytes32[1] orderBytes32)
+    function getPolicyOrder(address[8] orderAddresses, uint[6] orderValues, bytes32[3] orderBytes32)
         internal
         view
         returns (PolicyOrder _policyOrder)
@@ -189,16 +188,15 @@ contract AsekuroHub is Pausable, Ownable {
                 orderAddresses[4],
                 orderValues[0],
                 orderValues[1],
-                orderBytes32[0]
+                orderBytes32
             ),
             claimToken: orderAddresses[5],
             premiumToken: orderAddresses[6],
             relayer: orderAddresses[7],
-            coverageAmount: orderValues[2],
-            underwriterFee: orderValues[3],
-            relayerFee: orderValues[4],
-            resolverFee: orderValues[5],
-            expirationTimestampInSec: orderValues[6],
+            underwriterFee: orderValues[2],
+            relayerFee: orderValues[3],
+            resolverFee: orderValues[4],
+            expirationTimestampInSec: orderValues[5],
             policyOrderHash: bytes32(0)
         });
 
@@ -213,7 +211,7 @@ contract AsekuroHub is Pausable, Ownable {
         uint underwriterRiskRating,
         address policyContract,
         uint salt,
-        bytes32 policyContractParameters
+        bytes32[3] policyContractParameters
     )
         internal
         pure
@@ -245,7 +243,6 @@ contract AsekuroHub is Pausable, Ownable {
                 policyOrder.underwriterFee,
                 policyOrder.relayerFee,
                 policyOrder.resolverFee,
-                policyOrder.coverageAmount,
                 policyOrder.premiumToken,
                 policyOrder.claimToken,
                 policyOrder.relayer,

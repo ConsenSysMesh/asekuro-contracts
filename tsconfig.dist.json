@@ -19,12 +19,15 @@
     "files": [
         "node_modules/web3-typescript-typings/index.d.ts",
         "artifacts/index.ts",
-        "artifacts/ts/AsekuroHub.ts",
+        "artifacts/ts/AsekuroBroker.ts",
         "artifacts/ts/PolicyRegistry.ts",
         "artifacts/ts/PremiumRouter.ts",
         "artifacts/ts/ContractRegistry.ts",
-        "artifacts/ts/PolicyContract.ts",
+        "artifacts/ts/PolicyTemplateContract.ts",
         "artifacts/ts/PolicyToken.ts",
-        "artifacts/ts/SingleCoverageExamplePolicy.ts"
+        "artifacts/ts/RentersPolicy.ts",
+        "artifacts/ts/TokenRegistry.ts",
+        "artifacts/ts/IERC20.ts",
+        "artifacts/ts/DummyToken.ts",
     ]
 }

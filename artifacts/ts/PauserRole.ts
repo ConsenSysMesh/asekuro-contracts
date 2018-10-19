@@ -75,24 +75,24 @@ export const PauserRole =
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b50610032336000610037640100000000026102e0179091906401000000009004565b6100d1565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561007357600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b6103a6806100e06000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806346fbf68e1461005c5780636ef8d66d146100b757806382dc1ec4146100ce575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b604051808215151515815260200191505060405180910390f35b3480156100c357600080fd5b506100cc61012e565b005b3480156100da57600080fd5b5061010f600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610144565b005b60006101278260006101b290919063ffffffff16565b9050919050565b61014233600061024690919063ffffffff16565b565b61014d33610111565b151561015857600080fd5b61016c8160006102e090919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f6719d08c1888103bea251a4ed56406bd0c3e69723c8a1686e017e7bbe159b6f860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141515156101ef57600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561028257600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561031c57600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050505600a165627a7a723058203023161b9dcf098d52a425083a05da72e5b73bfec5c010246b9c28935a3a5a190029",
-  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806346fbf68e1461005c5780636ef8d66d146100b757806382dc1ec4146100ce575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b604051808215151515815260200191505060405180910390f35b3480156100c357600080fd5b506100cc61012e565b005b3480156100da57600080fd5b5061010f600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610144565b005b60006101278260006101b290919063ffffffff16565b9050919050565b61014233600061024690919063ffffffff16565b565b61014d33610111565b151561015857600080fd5b61016c8160006102e090919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f6719d08c1888103bea251a4ed56406bd0c3e69723c8a1686e017e7bbe159b6f860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141515156101ef57600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561028257600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561031c57600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050505600a165627a7a723058203023161b9dcf098d52a425083a05da72e5b73bfec5c010246b9c28935a3a5a190029",
-  "sourceMap": "51:729:11:-;;;232:55;8:9:-1;5:2;;;30:1;27;20:12;5:2;232:55:11;259:23;271:10;259:7;:11;;;;;;:23;;;;;:::i;:::-;51:729;;245:132:9;336:1;317:21;;:7;:21;;;;309:30;;;;;;;;368:4;345;:11;;:20;357:7;345:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;245:132;;:::o;51:729:11:-;;;;;;;",
-  "deployedSourceMap": "51:729:11:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;364:100;;8:9:-1;5:2;;;30:1;27;20:12;5:2;364:100:11;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;588:70;;8:9:-1;5:2;;;30:1;27;20:12;5:2;588:70:11;;;;;;468:116;;8:9:-1;5:2;;;30:1;27;20:12;5:2;468:116:11;;;;;;;;;;;;;;;;;;;;;;;;;;;;364:100;420:4;439:20;451:7;439;:11;;:20;;;;:::i;:::-;432:27;;364:100;;;:::o;588:70::-;627:26;642:10;627:7;:14;;:26;;;;:::i;:::-;588:70::o;468:116::-;327:20;336:10;327:8;:20::i;:::-;319:29;;;;;;;;528:20;540:7;528;:11;;:20;;;;:::i;:::-;571:7;559:20;;;;;;;;;;;;468:116;:::o;657:166:9:-;741:4;782:1;763:21;;:7;:21;;;;755:30;;;;;;;;798:4;:11;;:20;810:7;798:20;;;;;;;;;;;;;;;;;;;;;;;;;791:27;;657:166;;;;:::o;443:136::-;537:1;518:21;;:7;:21;;;;510:30;;;;;;;;569:5;546:4;:11;;:20;558:7;546:20;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;443:136;;:::o;245:132::-;336:1;317:21;;:7;:21;;;;309:30;;;;;;;;368:4;345;:11;;:20;357:7;345:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;245:132;;:::o",
+  "bytecode": "0x608060405234801561001057600080fd5b50610032336000610037640100000000026102e0179091906401000000009004565b6100d1565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561007357600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b6103a6806100e06000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806346fbf68e1461005c5780636ef8d66d146100b757806382dc1ec4146100ce575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b604051808215151515815260200191505060405180910390f35b3480156100c357600080fd5b506100cc61012e565b005b3480156100da57600080fd5b5061010f600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610144565b005b60006101278260006101b290919063ffffffff16565b9050919050565b61014233600061024690919063ffffffff16565b565b61014d33610111565b151561015857600080fd5b61016c8160006102e090919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f6719d08c1888103bea251a4ed56406bd0c3e69723c8a1686e017e7bbe159b6f860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141515156101ef57600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561028257600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561031c57600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050505600a165627a7a72305820c0280e405dc2e520815db8d66cc3a52d3727d07112236ed821c9d69e215bdbea0029",
+  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806346fbf68e1461005c5780636ef8d66d146100b757806382dc1ec4146100ce575b600080fd5b34801561006857600080fd5b5061009d600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610111565b604051808215151515815260200191505060405180910390f35b3480156100c357600080fd5b506100cc61012e565b005b3480156100da57600080fd5b5061010f600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610144565b005b60006101278260006101b290919063ffffffff16565b9050919050565b61014233600061024690919063ffffffff16565b565b61014d33610111565b151561015857600080fd5b61016c8160006102e090919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f6719d08c1888103bea251a4ed56406bd0c3e69723c8a1686e017e7bbe159b6f860405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141515156101ef57600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561028257600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561031c57600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050505600a165627a7a72305820c0280e405dc2e520815db8d66cc3a52d3727d07112236ed821c9d69e215bdbea0029",
+  "sourceMap": "51:729:12:-;;;232:55;8:9:-1;5:2;;;30:1;27;20:12;5:2;232:55:12;259:23;271:10;259:7;:11;;;;;;:23;;;;;:::i;:::-;51:729;;245:132:10;336:1;317:21;;:7;:21;;;;309:30;;;;;;;;368:4;345;:11;;:20;357:7;345:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;245:132;;:::o;51:729:12:-;;;;;;;",
+  "deployedSourceMap": "51:729:12:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;364:100;;8:9:-1;5:2;;;30:1;27;20:12;5:2;364:100:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;588:70;;8:9:-1;5:2;;;30:1;27;20:12;5:2;588:70:12;;;;;;468:116;;8:9:-1;5:2;;;30:1;27;20:12;5:2;468:116:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;364:100;420:4;439:20;451:7;439;:11;;:20;;;;:::i;:::-;432:27;;364:100;;;:::o;588:70::-;627:26;642:10;627:7;:14;;:26;;;;:::i;:::-;588:70::o;468:116::-;327:20;336:10;327:8;:20::i;:::-;319:29;;;;;;;;528:20;540:7;528;:11;;:20;;;;:::i;:::-;571:7;559:20;;;;;;;;;;;;468:116;:::o;657:166:10:-;741:4;782:1;763:21;;:7;:21;;;;755:30;;;;;;;;798:4;:11;;:20;810:7;798:20;;;;;;;;;;;;;;;;;;;;;;;;;791:27;;657:166;;;;:::o;443:136::-;537:1;518:21;;:7;:21;;;;510:30;;;;;;;;569:5;546:4;:11;;:20;558:7;546:20;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;443:136;;:::o;245:132::-;336:1;317:21;;:7;:21;;;;309:30;;;;;;;;368:4;345;:11;;:20;357:7;345:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;245:132;;:::o",
   "source": "pragma solidity ^0.4.24;\n\nimport \"../Roles.sol\";\n\n\ncontract PauserRole {\n  using Roles for Roles.Role;\n\n  event PauserAdded(address indexed account);\n  event PauserRemoved(address indexed account);\n\n  Roles.Role private pausers;\n\n  constructor() public {\n    pausers.add(msg.sender);\n  }\n\n  modifier onlyPauser() {\n    require(isPauser(msg.sender));\n    _;\n  }\n\n  function isPauser(address account) public view returns (bool) {\n    return pausers.has(account);\n  }\n\n  function addPauser(address account) public onlyPauser {\n    pausers.add(account);\n    emit PauserAdded(account);\n  }\n\n  function renouncePauser() public {\n    pausers.remove(msg.sender);\n  }\n\n  function _removePauser(address account) internal {\n    pausers.remove(account);\n    emit PauserRemoved(account);\n  }\n}\n",
   "sourcePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/access/roles/PauserRole.sol",
   "ast": {
     "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/access/roles/PauserRole.sol",
     "exportedSymbols": {
       "PauserRole": [
-        1863
+        2414
       ]
     },
-    "id": 1864,
+    "id": 2415,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1768,
+        "id": 2319,
         "literals": [
           "solidity",
           "^",
@@ -100,16 +100,16 @@ export const PauserRole =
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:11"
+        "src": "0:24:12"
       },
       {
         "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/access/Roles.sol",
         "file": "../Roles.sol",
-        "id": 1769,
+        "id": 2320,
         "nodeType": "ImportDirective",
-        "scope": 1864,
-        "sourceUnit": 1670,
-        "src": "26:22:11",
+        "scope": 2415,
+        "sourceUnit": 2221,
+        "src": "26:22:12",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -119,38 +119,38 @@ export const PauserRole =
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1863,
+        "id": 2414,
         "linearizedBaseContracts": [
-          1863
+          2414
         ],
         "name": "PauserRole",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 1772,
+            "id": 2323,
             "libraryName": {
               "contractScope": null,
-              "id": 1770,
+              "id": 2321,
               "name": "Roles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1669,
-              "src": "81:5:11",
+              "referencedDeclaration": 2220,
+              "src": "81:5:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Roles_$1669",
+                "typeIdentifier": "t_contract$_Roles_$2220",
                 "typeString": "library Roles"
               }
             },
             "nodeType": "UsingForDirective",
-            "src": "75:27:11",
+            "src": "75:27:12",
             "typeName": {
               "contractScope": null,
-              "id": 1771,
+              "id": 2322,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1597,
-              "src": "91:10:11",
+              "referencedDeclaration": 2148,
+              "src": "91:10:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$1597_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$2148_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             }
@@ -158,21 +158,21 @@ export const PauserRole =
           {
             "anonymous": false,
             "documentation": null,
-            "id": 1776,
+            "id": 2327,
             "name": "PauserAdded",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1775,
+              "id": 2326,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1774,
+                  "id": 2325,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1776,
-                  "src": "124:23:11",
+                  "scope": 2327,
+                  "src": "124:23:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -180,10 +180,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1773,
+                    "id": 2324,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "124:7:11",
+                    "src": "124:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -193,28 +193,28 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "123:25:11"
+              "src": "123:25:12"
             },
-            "src": "106:43:11"
+            "src": "106:43:12"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 1780,
+            "id": 2331,
             "name": "PauserRemoved",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1779,
+              "id": 2330,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1778,
+                  "id": 2329,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1780,
-                  "src": "172:23:11",
+                  "scope": 2331,
+                  "src": "172:23:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -222,10 +222,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1777,
+                    "id": 2328,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "172:7:11",
+                    "src": "172:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -235,32 +235,32 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "171:25:11"
+              "src": "171:25:12"
             },
-            "src": "152:45:11"
+            "src": "152:45:12"
           },
           {
             "constant": false,
-            "id": 1782,
+            "id": 2333,
             "name": "pausers",
             "nodeType": "VariableDeclaration",
-            "scope": 1863,
-            "src": "201:26:11",
+            "scope": 2414,
+            "src": "201:26:12",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Role_$1597_storage",
+              "typeIdentifier": "t_struct$_Role_$2148_storage",
               "typeString": "struct Roles.Role"
             },
             "typeName": {
               "contractScope": null,
-              "id": 1781,
+              "id": 2332,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1597,
-              "src": "201:10:11",
+              "referencedDeclaration": 2148,
+              "src": "201:10:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$1597_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$2148_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             },
@@ -269,9 +269,9 @@ export const PauserRole =
           },
           {
             "body": {
-              "id": 1792,
+              "id": 2343,
               "nodeType": "Block",
-              "src": "253:34:11",
+              "src": "253:34:12",
               "statements": [
                 {
                   "expression": {
@@ -281,18 +281,18 @@ export const PauserRole =
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 1788,
+                          "id": 2339,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4014,
-                          "src": "271:3:11",
+                          "referencedDeclaration": 4623,
+                          "src": "271:3:12",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 1789,
+                        "id": 2340,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -300,7 +300,7 @@ export const PauserRole =
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "271:10:11",
+                        "src": "271:10:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -316,32 +316,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1785,
+                        "id": 2336,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "259:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "259:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1787,
+                      "id": 2338,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1621,
-                      "src": "259:11:11",
+                      "referencedDeclaration": 2172,
+                      "src": "259:11:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 1790,
+                    "id": 2341,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -349,20 +349,20 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "259:23:11",
+                    "src": "259:23:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1791,
+                  "id": 2342,
                   "nodeType": "ExpressionStatement",
-                  "src": "259:23:11"
+                  "src": "259:23:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1793,
+            "id": 2344,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -370,29 +370,29 @@ export const PauserRole =
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1783,
+              "id": 2334,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "243:2:11"
+              "src": "243:2:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1784,
+              "id": 2335,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "253:0:11"
+              "src": "253:0:12"
             },
-            "scope": 1863,
-            "src": "232:55:11",
+            "scope": 2414,
+            "src": "232:55:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1803,
+              "id": 2354,
               "nodeType": "Block",
-              "src": "313:47:11",
+              "src": "313:47:12",
               "statements": [
                 {
                   "expression": {
@@ -405,18 +405,18 @@ export const PauserRole =
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 1797,
+                              "id": 2348,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4014,
-                              "src": "336:3:11",
+                              "referencedDeclaration": 4623,
+                              "src": "336:3:12",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 1798,
+                            "id": 2349,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -424,7 +424,7 @@ export const PauserRole =
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "336:10:11",
+                            "src": "336:10:12",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -438,18 +438,18 @@ export const PauserRole =
                               "typeString": "address"
                             }
                           ],
-                          "id": 1796,
+                          "id": 2347,
                           "name": "isPauser",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1817,
-                          "src": "327:8:11",
+                          "referencedDeclaration": 2368,
+                          "src": "327:8:12",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
                           }
                         },
-                        "id": 1799,
+                        "id": 2350,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -457,7 +457,7 @@ export const PauserRole =
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "327:20:11",
+                        "src": "327:20:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -471,21 +471,21 @@ export const PauserRole =
                           "typeString": "bool"
                         }
                       ],
-                      "id": 1795,
+                      "id": 2346,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4017,
-                        4018
+                        4626,
+                        4627
                       ],
-                      "referencedDeclaration": 4017,
-                      "src": "319:7:11",
+                      "referencedDeclaration": 4626,
+                      "src": "319:7:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 1800,
+                    "id": 2351,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -493,41 +493,41 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "319:29:11",
+                    "src": "319:29:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1801,
+                  "id": 2352,
                   "nodeType": "ExpressionStatement",
-                  "src": "319:29:11"
+                  "src": "319:29:12"
                 },
                 {
-                  "id": 1802,
+                  "id": 2353,
                   "nodeType": "PlaceholderStatement",
-                  "src": "354:1:11"
+                  "src": "354:1:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1804,
+            "id": 2355,
             "name": "onlyPauser",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 1794,
+              "id": 2345,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "310:2:11"
+              "src": "310:2:12"
             },
-            "src": "291:69:11",
+            "src": "291:69:12",
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1816,
+              "id": 2367,
               "nodeType": "Block",
-              "src": "426:38:11",
+              "src": "426:38:12",
               "statements": [
                 {
                   "expression": {
@@ -535,12 +535,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1813,
+                        "id": 2364,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1806,
-                        "src": "451:7:11",
+                        "referencedDeclaration": 2357,
+                        "src": "451:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -556,32 +556,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1811,
+                        "id": 2362,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "439:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "439:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1812,
+                      "id": 2363,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "has",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1668,
-                      "src": "439:11:11",
+                      "referencedDeclaration": 2219,
+                      "src": "439:11:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address) view returns (bool)"
                       }
                     },
-                    "id": 1814,
+                    "id": 2365,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -589,21 +589,21 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "439:20:11",
+                    "src": "439:20:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1810,
-                  "id": 1815,
+                  "functionReturnParameters": 2361,
+                  "id": 2366,
                   "nodeType": "Return",
-                  "src": "432:27:11"
+                  "src": "432:27:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1817,
+            "id": 2368,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -611,16 +611,16 @@ export const PauserRole =
             "name": "isPauser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1807,
+              "id": 2358,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1806,
+                  "id": 2357,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1817,
-                  "src": "382:15:11",
+                  "scope": 2368,
+                  "src": "382:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -628,10 +628,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1805,
+                    "id": 2356,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "382:7:11",
+                    "src": "382:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -641,20 +641,20 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "381:17:11"
+              "src": "381:17:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1810,
+              "id": 2361,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1809,
+                  "id": 2360,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1817,
-                  "src": "420:4:11",
+                  "scope": 2368,
+                  "src": "420:4:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -662,10 +662,10 @@ export const PauserRole =
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1808,
+                    "id": 2359,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "420:4:11",
+                    "src": "420:4:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -675,19 +675,19 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "419:6:11"
+              "src": "419:6:12"
             },
-            "scope": 1863,
-            "src": "364:100:11",
+            "scope": 2414,
+            "src": "364:100:12",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1834,
+              "id": 2385,
               "nodeType": "Block",
-              "src": "522:62:11",
+              "src": "522:62:12",
               "statements": [
                 {
                   "expression": {
@@ -695,12 +695,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1827,
+                        "id": 2378,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1819,
-                        "src": "540:7:11",
+                        "referencedDeclaration": 2370,
+                        "src": "540:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -716,32 +716,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1824,
+                        "id": 2375,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "528:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "528:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1826,
+                      "id": 2377,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1621,
-                      "src": "528:11:11",
+                      "referencedDeclaration": 2172,
+                      "src": "528:11:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 1828,
+                    "id": 2379,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -749,15 +749,15 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "528:20:11",
+                    "src": "528:20:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1829,
+                  "id": 2380,
                   "nodeType": "ExpressionStatement",
-                  "src": "528:20:11"
+                  "src": "528:20:12"
                 },
                 {
                   "eventCall": {
@@ -765,12 +765,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1831,
+                        "id": 2382,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1819,
-                        "src": "571:7:11",
+                        "referencedDeclaration": 2370,
+                        "src": "571:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -784,18 +784,18 @@ export const PauserRole =
                           "typeString": "address"
                         }
                       ],
-                      "id": 1830,
+                      "id": 2381,
                       "name": "PauserAdded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1776,
-                      "src": "559:11:11",
+                      "referencedDeclaration": 2327,
+                      "src": "559:11:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 1832,
+                    "id": 2383,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -803,57 +803,57 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "559:20:11",
+                    "src": "559:20:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1833,
+                  "id": 2384,
                   "nodeType": "EmitStatement",
-                  "src": "554:25:11"
+                  "src": "554:25:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1835,
+            "id": 2386,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": null,
-                "id": 1822,
+                "id": 2373,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 1821,
+                  "id": 2372,
                   "name": "onlyPauser",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1804,
-                  "src": "511:10:11",
+                  "referencedDeclaration": 2355,
+                  "src": "511:10:12",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "511:10:11"
+                "src": "511:10:12"
               }
             ],
             "name": "addPauser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1820,
+              "id": 2371,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1819,
+                  "id": 2370,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1835,
-                  "src": "487:15:11",
+                  "scope": 2386,
+                  "src": "487:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -861,10 +861,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1818,
+                    "id": 2369,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "487:7:11",
+                    "src": "487:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -874,26 +874,26 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "486:17:11"
+              "src": "486:17:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1823,
+              "id": 2374,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "522:0:11"
+              "src": "522:0:12"
             },
-            "scope": 1863,
-            "src": "468:116:11",
+            "scope": 2414,
+            "src": "468:116:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1845,
+              "id": 2396,
               "nodeType": "Block",
-              "src": "621:37:11",
+              "src": "621:37:12",
               "statements": [
                 {
                   "expression": {
@@ -903,18 +903,18 @@ export const PauserRole =
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 1841,
+                          "id": 2392,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4014,
-                          "src": "642:3:11",
+                          "referencedDeclaration": 4623,
+                          "src": "642:3:12",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 1842,
+                        "id": 2393,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -922,7 +922,7 @@ export const PauserRole =
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "642:10:11",
+                        "src": "642:10:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -938,32 +938,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1838,
+                        "id": 2389,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "627:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "627:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1840,
+                      "id": 2391,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1645,
-                      "src": "627:14:11",
+                      "referencedDeclaration": 2196,
+                      "src": "627:14:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 1843,
+                    "id": 2394,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -971,20 +971,20 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "627:26:11",
+                    "src": "627:26:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1844,
+                  "id": 2395,
                   "nodeType": "ExpressionStatement",
-                  "src": "627:26:11"
+                  "src": "627:26:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1846,
+            "id": 2397,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -992,29 +992,29 @@ export const PauserRole =
             "name": "renouncePauser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1836,
+              "id": 2387,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "611:2:11"
+              "src": "611:2:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1837,
+              "id": 2388,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "621:0:11"
+              "src": "621:0:12"
             },
-            "scope": 1863,
-            "src": "588:70:11",
+            "scope": 2414,
+            "src": "588:70:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1861,
+              "id": 2412,
               "nodeType": "Block",
-              "src": "711:67:11",
+              "src": "711:67:12",
               "statements": [
                 {
                   "expression": {
@@ -1022,12 +1022,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1854,
+                        "id": 2405,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1848,
-                        "src": "732:7:11",
+                        "referencedDeclaration": 2399,
+                        "src": "732:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1043,32 +1043,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1851,
+                        "id": 2402,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "717:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "717:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1853,
+                      "id": 2404,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1645,
-                      "src": "717:14:11",
+                      "referencedDeclaration": 2196,
+                      "src": "717:14:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 1855,
+                    "id": 2406,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1076,15 +1076,15 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "717:23:11",
+                    "src": "717:23:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1856,
+                  "id": 2407,
                   "nodeType": "ExpressionStatement",
-                  "src": "717:23:11"
+                  "src": "717:23:12"
                 },
                 {
                   "eventCall": {
@@ -1092,12 +1092,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1858,
+                        "id": 2409,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1848,
-                        "src": "765:7:11",
+                        "referencedDeclaration": 2399,
+                        "src": "765:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1111,18 +1111,18 @@ export const PauserRole =
                           "typeString": "address"
                         }
                       ],
-                      "id": 1857,
+                      "id": 2408,
                       "name": "PauserRemoved",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1780,
-                      "src": "751:13:11",
+                      "referencedDeclaration": 2331,
+                      "src": "751:13:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 1859,
+                    "id": 2410,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1130,20 +1130,20 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "751:22:11",
+                    "src": "751:22:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1860,
+                  "id": 2411,
                   "nodeType": "EmitStatement",
-                  "src": "746:27:11"
+                  "src": "746:27:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1862,
+            "id": 2413,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1151,16 +1151,16 @@ export const PauserRole =
             "name": "_removePauser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1849,
+              "id": 2400,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1848,
+                  "id": 2399,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1862,
-                  "src": "685:15:11",
+                  "scope": 2413,
+                  "src": "685:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1168,10 +1168,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1847,
+                    "id": 2398,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "685:7:11",
+                    "src": "685:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1181,40 +1181,40 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "684:17:11"
+              "src": "684:17:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1850,
+              "id": 2401,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "711:0:11"
+              "src": "711:0:12"
             },
-            "scope": 1863,
-            "src": "662:116:11",
+            "scope": 2414,
+            "src": "662:116:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 1864,
-        "src": "51:729:11"
+        "scope": 2415,
+        "src": "51:729:12"
       }
     ],
-    "src": "0:781:11"
+    "src": "0:781:12"
   },
   "legacyAST": {
     "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/access/roles/PauserRole.sol",
     "exportedSymbols": {
       "PauserRole": [
-        1863
+        2414
       ]
     },
-    "id": 1864,
+    "id": 2415,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1768,
+        "id": 2319,
         "literals": [
           "solidity",
           "^",
@@ -1222,16 +1222,16 @@ export const PauserRole =
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:11"
+        "src": "0:24:12"
       },
       {
         "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/access/Roles.sol",
         "file": "../Roles.sol",
-        "id": 1769,
+        "id": 2320,
         "nodeType": "ImportDirective",
-        "scope": 1864,
-        "sourceUnit": 1670,
-        "src": "26:22:11",
+        "scope": 2415,
+        "sourceUnit": 2221,
+        "src": "26:22:12",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -1241,38 +1241,38 @@ export const PauserRole =
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1863,
+        "id": 2414,
         "linearizedBaseContracts": [
-          1863
+          2414
         ],
         "name": "PauserRole",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 1772,
+            "id": 2323,
             "libraryName": {
               "contractScope": null,
-              "id": 1770,
+              "id": 2321,
               "name": "Roles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1669,
-              "src": "81:5:11",
+              "referencedDeclaration": 2220,
+              "src": "81:5:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Roles_$1669",
+                "typeIdentifier": "t_contract$_Roles_$2220",
                 "typeString": "library Roles"
               }
             },
             "nodeType": "UsingForDirective",
-            "src": "75:27:11",
+            "src": "75:27:12",
             "typeName": {
               "contractScope": null,
-              "id": 1771,
+              "id": 2322,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1597,
-              "src": "91:10:11",
+              "referencedDeclaration": 2148,
+              "src": "91:10:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$1597_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$2148_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             }
@@ -1280,21 +1280,21 @@ export const PauserRole =
           {
             "anonymous": false,
             "documentation": null,
-            "id": 1776,
+            "id": 2327,
             "name": "PauserAdded",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1775,
+              "id": 2326,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1774,
+                  "id": 2325,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1776,
-                  "src": "124:23:11",
+                  "scope": 2327,
+                  "src": "124:23:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1302,10 +1302,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1773,
+                    "id": 2324,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "124:7:11",
+                    "src": "124:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1315,28 +1315,28 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "123:25:11"
+              "src": "123:25:12"
             },
-            "src": "106:43:11"
+            "src": "106:43:12"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 1780,
+            "id": 2331,
             "name": "PauserRemoved",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1779,
+              "id": 2330,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1778,
+                  "id": 2329,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1780,
-                  "src": "172:23:11",
+                  "scope": 2331,
+                  "src": "172:23:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1344,10 +1344,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1777,
+                    "id": 2328,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "172:7:11",
+                    "src": "172:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1357,32 +1357,32 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "171:25:11"
+              "src": "171:25:12"
             },
-            "src": "152:45:11"
+            "src": "152:45:12"
           },
           {
             "constant": false,
-            "id": 1782,
+            "id": 2333,
             "name": "pausers",
             "nodeType": "VariableDeclaration",
-            "scope": 1863,
-            "src": "201:26:11",
+            "scope": 2414,
+            "src": "201:26:12",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Role_$1597_storage",
+              "typeIdentifier": "t_struct$_Role_$2148_storage",
               "typeString": "struct Roles.Role"
             },
             "typeName": {
               "contractScope": null,
-              "id": 1781,
+              "id": 2332,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1597,
-              "src": "201:10:11",
+              "referencedDeclaration": 2148,
+              "src": "201:10:12",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$1597_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$2148_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             },
@@ -1391,9 +1391,9 @@ export const PauserRole =
           },
           {
             "body": {
-              "id": 1792,
+              "id": 2343,
               "nodeType": "Block",
-              "src": "253:34:11",
+              "src": "253:34:12",
               "statements": [
                 {
                   "expression": {
@@ -1403,18 +1403,18 @@ export const PauserRole =
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 1788,
+                          "id": 2339,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4014,
-                          "src": "271:3:11",
+                          "referencedDeclaration": 4623,
+                          "src": "271:3:12",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 1789,
+                        "id": 2340,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1422,7 +1422,7 @@ export const PauserRole =
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "271:10:11",
+                        "src": "271:10:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1438,32 +1438,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1785,
+                        "id": 2336,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "259:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "259:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1787,
+                      "id": 2338,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1621,
-                      "src": "259:11:11",
+                      "referencedDeclaration": 2172,
+                      "src": "259:11:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 1790,
+                    "id": 2341,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1471,20 +1471,20 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "259:23:11",
+                    "src": "259:23:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1791,
+                  "id": 2342,
                   "nodeType": "ExpressionStatement",
-                  "src": "259:23:11"
+                  "src": "259:23:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1793,
+            "id": 2344,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -1492,29 +1492,29 @@ export const PauserRole =
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1783,
+              "id": 2334,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "243:2:11"
+              "src": "243:2:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1784,
+              "id": 2335,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "253:0:11"
+              "src": "253:0:12"
             },
-            "scope": 1863,
-            "src": "232:55:11",
+            "scope": 2414,
+            "src": "232:55:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1803,
+              "id": 2354,
               "nodeType": "Block",
-              "src": "313:47:11",
+              "src": "313:47:12",
               "statements": [
                 {
                   "expression": {
@@ -1527,18 +1527,18 @@ export const PauserRole =
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 1797,
+                              "id": 2348,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4014,
-                              "src": "336:3:11",
+                              "referencedDeclaration": 4623,
+                              "src": "336:3:12",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 1798,
+                            "id": 2349,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1546,7 +1546,7 @@ export const PauserRole =
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "336:10:11",
+                            "src": "336:10:12",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1560,18 +1560,18 @@ export const PauserRole =
                               "typeString": "address"
                             }
                           ],
-                          "id": 1796,
+                          "id": 2347,
                           "name": "isPauser",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1817,
-                          "src": "327:8:11",
+                          "referencedDeclaration": 2368,
+                          "src": "327:8:12",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
                           }
                         },
-                        "id": 1799,
+                        "id": 2350,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1579,7 +1579,7 @@ export const PauserRole =
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "327:20:11",
+                        "src": "327:20:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1593,21 +1593,21 @@ export const PauserRole =
                           "typeString": "bool"
                         }
                       ],
-                      "id": 1795,
+                      "id": 2346,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4017,
-                        4018
+                        4626,
+                        4627
                       ],
-                      "referencedDeclaration": 4017,
-                      "src": "319:7:11",
+                      "referencedDeclaration": 4626,
+                      "src": "319:7:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 1800,
+                    "id": 2351,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1615,41 +1615,41 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "319:29:11",
+                    "src": "319:29:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1801,
+                  "id": 2352,
                   "nodeType": "ExpressionStatement",
-                  "src": "319:29:11"
+                  "src": "319:29:12"
                 },
                 {
-                  "id": 1802,
+                  "id": 2353,
                   "nodeType": "PlaceholderStatement",
-                  "src": "354:1:11"
+                  "src": "354:1:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1804,
+            "id": 2355,
             "name": "onlyPauser",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 1794,
+              "id": 2345,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "310:2:11"
+              "src": "310:2:12"
             },
-            "src": "291:69:11",
+            "src": "291:69:12",
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1816,
+              "id": 2367,
               "nodeType": "Block",
-              "src": "426:38:11",
+              "src": "426:38:12",
               "statements": [
                 {
                   "expression": {
@@ -1657,12 +1657,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1813,
+                        "id": 2364,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1806,
-                        "src": "451:7:11",
+                        "referencedDeclaration": 2357,
+                        "src": "451:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1678,32 +1678,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1811,
+                        "id": 2362,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "439:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "439:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1812,
+                      "id": 2363,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "has",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1668,
-                      "src": "439:11:11",
+                      "referencedDeclaration": 2219,
+                      "src": "439:11:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address) view returns (bool)"
                       }
                     },
-                    "id": 1814,
+                    "id": 2365,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1711,21 +1711,21 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "439:20:11",
+                    "src": "439:20:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1810,
-                  "id": 1815,
+                  "functionReturnParameters": 2361,
+                  "id": 2366,
                   "nodeType": "Return",
-                  "src": "432:27:11"
+                  "src": "432:27:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1817,
+            "id": 2368,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1733,16 +1733,16 @@ export const PauserRole =
             "name": "isPauser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1807,
+              "id": 2358,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1806,
+                  "id": 2357,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1817,
-                  "src": "382:15:11",
+                  "scope": 2368,
+                  "src": "382:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1750,10 +1750,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1805,
+                    "id": 2356,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "382:7:11",
+                    "src": "382:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1763,20 +1763,20 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "381:17:11"
+              "src": "381:17:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1810,
+              "id": 2361,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1809,
+                  "id": 2360,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1817,
-                  "src": "420:4:11",
+                  "scope": 2368,
+                  "src": "420:4:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1784,10 +1784,10 @@ export const PauserRole =
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1808,
+                    "id": 2359,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "420:4:11",
+                    "src": "420:4:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1797,19 +1797,19 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "419:6:11"
+              "src": "419:6:12"
             },
-            "scope": 1863,
-            "src": "364:100:11",
+            "scope": 2414,
+            "src": "364:100:12",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1834,
+              "id": 2385,
               "nodeType": "Block",
-              "src": "522:62:11",
+              "src": "522:62:12",
               "statements": [
                 {
                   "expression": {
@@ -1817,12 +1817,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1827,
+                        "id": 2378,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1819,
-                        "src": "540:7:11",
+                        "referencedDeclaration": 2370,
+                        "src": "540:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1838,32 +1838,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1824,
+                        "id": 2375,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "528:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "528:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1826,
+                      "id": 2377,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1621,
-                      "src": "528:11:11",
+                      "referencedDeclaration": 2172,
+                      "src": "528:11:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 1828,
+                    "id": 2379,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1871,15 +1871,15 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "528:20:11",
+                    "src": "528:20:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1829,
+                  "id": 2380,
                   "nodeType": "ExpressionStatement",
-                  "src": "528:20:11"
+                  "src": "528:20:12"
                 },
                 {
                   "eventCall": {
@@ -1887,12 +1887,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1831,
+                        "id": 2382,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1819,
-                        "src": "571:7:11",
+                        "referencedDeclaration": 2370,
+                        "src": "571:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1906,18 +1906,18 @@ export const PauserRole =
                           "typeString": "address"
                         }
                       ],
-                      "id": 1830,
+                      "id": 2381,
                       "name": "PauserAdded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1776,
-                      "src": "559:11:11",
+                      "referencedDeclaration": 2327,
+                      "src": "559:11:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 1832,
+                    "id": 2383,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1925,57 +1925,57 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "559:20:11",
+                    "src": "559:20:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1833,
+                  "id": 2384,
                   "nodeType": "EmitStatement",
-                  "src": "554:25:11"
+                  "src": "554:25:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1835,
+            "id": 2386,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": null,
-                "id": 1822,
+                "id": 2373,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 1821,
+                  "id": 2372,
                   "name": "onlyPauser",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1804,
-                  "src": "511:10:11",
+                  "referencedDeclaration": 2355,
+                  "src": "511:10:12",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "511:10:11"
+                "src": "511:10:12"
               }
             ],
             "name": "addPauser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1820,
+              "id": 2371,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1819,
+                  "id": 2370,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1835,
-                  "src": "487:15:11",
+                  "scope": 2386,
+                  "src": "487:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1983,10 +1983,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1818,
+                    "id": 2369,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "487:7:11",
+                    "src": "487:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1996,26 +1996,26 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "486:17:11"
+              "src": "486:17:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1823,
+              "id": 2374,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "522:0:11"
+              "src": "522:0:12"
             },
-            "scope": 1863,
-            "src": "468:116:11",
+            "scope": 2414,
+            "src": "468:116:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1845,
+              "id": 2396,
               "nodeType": "Block",
-              "src": "621:37:11",
+              "src": "621:37:12",
               "statements": [
                 {
                   "expression": {
@@ -2025,18 +2025,18 @@ export const PauserRole =
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 1841,
+                          "id": 2392,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4014,
-                          "src": "642:3:11",
+                          "referencedDeclaration": 4623,
+                          "src": "642:3:12",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 1842,
+                        "id": 2393,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2044,7 +2044,7 @@ export const PauserRole =
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "642:10:11",
+                        "src": "642:10:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2060,32 +2060,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1838,
+                        "id": 2389,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "627:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "627:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1840,
+                      "id": 2391,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1645,
-                      "src": "627:14:11",
+                      "referencedDeclaration": 2196,
+                      "src": "627:14:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 1843,
+                    "id": 2394,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2093,20 +2093,20 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "627:26:11",
+                    "src": "627:26:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1844,
+                  "id": 2395,
                   "nodeType": "ExpressionStatement",
-                  "src": "627:26:11"
+                  "src": "627:26:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1846,
+            "id": 2397,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -2114,29 +2114,29 @@ export const PauserRole =
             "name": "renouncePauser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1836,
+              "id": 2387,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "611:2:11"
+              "src": "611:2:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1837,
+              "id": 2388,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "621:0:11"
+              "src": "621:0:12"
             },
-            "scope": 1863,
-            "src": "588:70:11",
+            "scope": 2414,
+            "src": "588:70:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1861,
+              "id": 2412,
               "nodeType": "Block",
-              "src": "711:67:11",
+              "src": "711:67:12",
               "statements": [
                 {
                   "expression": {
@@ -2144,12 +2144,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1854,
+                        "id": 2405,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1848,
-                        "src": "732:7:11",
+                        "referencedDeclaration": 2399,
+                        "src": "732:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2165,32 +2165,32 @@ export const PauserRole =
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 1851,
+                        "id": 2402,
                         "name": "pausers",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1782,
-                        "src": "717:7:11",
+                        "referencedDeclaration": 2333,
+                        "src": "717:7:12",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$1597_storage",
+                          "typeIdentifier": "t_struct$_Role_$2148_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 1853,
+                      "id": 2404,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1645,
-                      "src": "717:14:11",
+                      "referencedDeclaration": 2196,
+                      "src": "717:14:12",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$1597_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$1597_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$2148_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$2148_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 1855,
+                    "id": 2406,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2198,15 +2198,15 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "717:23:11",
+                    "src": "717:23:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1856,
+                  "id": 2407,
                   "nodeType": "ExpressionStatement",
-                  "src": "717:23:11"
+                  "src": "717:23:12"
                 },
                 {
                   "eventCall": {
@@ -2214,12 +2214,12 @@ export const PauserRole =
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 1858,
+                        "id": 2409,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1848,
-                        "src": "765:7:11",
+                        "referencedDeclaration": 2399,
+                        "src": "765:7:12",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2233,18 +2233,18 @@ export const PauserRole =
                           "typeString": "address"
                         }
                       ],
-                      "id": 1857,
+                      "id": 2408,
                       "name": "PauserRemoved",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1780,
-                      "src": "751:13:11",
+                      "referencedDeclaration": 2331,
+                      "src": "751:13:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 1859,
+                    "id": 2410,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2252,20 +2252,20 @@ export const PauserRole =
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "751:22:11",
+                    "src": "751:22:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1860,
+                  "id": 2411,
                   "nodeType": "EmitStatement",
-                  "src": "746:27:11"
+                  "src": "746:27:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 1862,
+            "id": 2413,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -2273,16 +2273,16 @@ export const PauserRole =
             "name": "_removePauser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1849,
+              "id": 2400,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1848,
+                  "id": 2399,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1862,
-                  "src": "685:15:11",
+                  "scope": 2413,
+                  "src": "685:15:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2290,10 +2290,10 @@ export const PauserRole =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1847,
+                    "id": 2398,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "685:7:11",
+                    "src": "685:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -2303,33 +2303,33 @@ export const PauserRole =
                   "visibility": "internal"
                 }
               ],
-              "src": "684:17:11"
+              "src": "684:17:12"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1850,
+              "id": 2401,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "711:0:11"
+              "src": "711:0:12"
             },
-            "scope": 1863,
-            "src": "662:116:11",
+            "scope": 2414,
+            "src": "662:116:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 1864,
-        "src": "51:729:11"
+        "scope": 2415,
+        "src": "51:729:12"
       }
     ],
-    "src": "0:781:11"
+    "src": "0:781:12"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+    "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.0-beta.0",
-  "updatedAt": "2018-09-20T03:48:43.553Z"
+  "schemaVersion": "3.0.0-beta.1",
+  "updatedAt": "2018-10-19T20:14:01.412Z"
 }

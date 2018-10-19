@@ -1,4 +1,4 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.24;
 
 import "../node_modules/openzeppelin-solidity/contracts/lifecycle/Pausable.sol";
 import "../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol";
@@ -12,21 +12,26 @@ contract PolicyRegistry is Pausable {
         address resolver;
         address underwriter;
         uint underwriterRiskRating;
-        address policyContract;
-        bytes32 policyContractParameters;
-        uint issuanceBlockTimestamp;
+        address policyTemplate;
+        bytes32[3] policyTemplateParameters;
+        uint bindingBlockTimestamp;
     }
 
+    // map policyIds to entries
     mapping (bytes32 => Entry) internal registry;
+
+    // maps insured address to list of policies
+    mapping (address => bytes32[]) internal insuredToPolicies;
 
     event LogInsertEntry(
         bytes32 indexed policyId,
+        address indexed insured,
         address indexed carrier,
         address resolver,
-        address indexed underwriter,
+        address underwriter,
         uint underwriterRiskRating,
-        address policyContract,
-        bytes32 policyContractParameters
+        address policyTemplate,
+        bytes32[3] policyTemplateParameters
     );
 
     function insert(
@@ -36,8 +41,8 @@ contract PolicyRegistry is Pausable {
         address _resolver,
         address _underwriter,
         uint _underwriterRiskRating,
-        address _policyContract,
-        bytes32 _policyContractParameters,
+        address _policyTemplate,
+        bytes32[3] _policyTemplateParameters,
         uint _salt
     )
         public
@@ -50,84 +55,92 @@ contract PolicyRegistry is Pausable {
             _resolver,
             _underwriter,
             _underwriterRiskRating,
-            _policyContract,
-            _policyContractParameters,
+            _policyTemplate,
+            _policyTemplateParameters,
             block.timestamp
         );
 
         bytes32 policyId = _getPolicyId(entry, _insured, _salt);
 
+        // Ensure this entry is new
+        require(registry[policyId].carrier == address(0));
+
         registry[policyId] = entry;
 
         emit LogInsertEntry(
             policyId,
+            _insured,
             entry.carrier,
             entry.resolver,
             entry.underwriter,
             entry.underwriterRiskRating,
-            entry.policyContract,
-            entry.policyContractParameters
+            entry.policyTemplate,
+            entry.policyTemplateParameters
         );
 
         return policyId;
     }
 
-    // TODO call stack too deep to return 'version'
     function get(bytes32 policyId)
         public
         view
-        returns (address, address, address, uint, address, bytes32, uint)
+        returns (address, address, address, address, uint, address, bytes32[3], uint)
     {
+        // Tip: instantiate struct in memory to reduce call stack depth issues
+        Entry memory entry = registry[policyId];
         return (
-            registry[policyId].carrier,
-            registry[policyId].resolver,
-            registry[policyId].underwriter,
-            registry[policyId].underwriterRiskRating,
-            registry[policyId].policyContract,
-            registry[policyId].policyContractParameters,
-            registry[policyId].issuanceBlockTimestamp
+            entry.version,
+            entry.carrier,
+            entry.resolver,
+            entry.underwriter,
+            entry.underwriterRiskRating,
+            entry.policyTemplate,
+            entry.policyTemplateParameters,
+            entry.bindingBlockTimestamp
         );
     }
 
-    function getPolicyTerms(
+    function getPolicyDetails(
         bytes32 policyId
     )
         public
         view
-        returns (address, bytes32)
+        returns (address, bytes32[3])
     {
         return (
-            registry[policyId].policyContract,
-            registry[policyId].policyContractParameters
+            registry[policyId].policyTemplate,
+            registry[policyId].policyTemplateParameters
         );
     }
 
-    function getBindingBlockTimestamp(bytes32 policyId)
-        public
-        view
-        returns (uint timestamp)
-    {
-        return registry[policyId].issuanceBlockTimestamp;
-    }
-
-    function getPolicyContract(
+    function getPolicyTemplate(
         bytes32 policyId
     )
         public
         view
         returns (address)
     {
-        return registry[policyId].policyContract;
+        return registry[policyId].policyTemplate;
     }
 
-    function getPolicyContractParameters(
+    function getPolicyTemplateParameters(
         bytes32 policyId
     )
         public
         view
-        returns (bytes32)
+        returns (bytes32[3])
     {
-        return registry[policyId].policyContractParameters;
+        return registry[policyId].policyTemplateParameters;
+    }
+
+    function getBindingBlockTimestamp(
+        bytes32 policyId
+    )
+        public
+        view
+        returns (uint timestamp)
+    {
+        return registry[policyId].bindingBlockTimestamp;
     }
 
     function getCarrier(
@@ -152,10 +165,11 @@ contract PolicyRegistry is Pausable {
                 _entry.resolver,
                 _entry.underwriter,
                 _entry.underwriterRiskRating,
-                _entry.policyContract,
-                _entry.policyContractParameters,
+                _entry.policyTemplate,
+                _entry.policyTemplateParameters,
                 _salt
             )
         );
     }
+
 }

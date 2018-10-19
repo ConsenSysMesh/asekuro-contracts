@@ -32,14 +32,14 @@ export const IERC165 =
     "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
     "exportedSymbols": {
       "IERC165": [
-        1924
+        2475
       ]
     },
-    "id": 1925,
+    "id": 2476,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1916,
+        "id": 2467,
         "literals": [
           "solidity",
           "^",
@@ -47,7 +47,7 @@ export const IERC165 =
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:13"
+        "src": "0:24:14"
       },
       {
         "baseContracts": [],
@@ -55,9 +55,9 @@ export const IERC165 =
         "contractKind": "interface",
         "documentation": "@title IERC165\n@dev https://github.com/ethereum/EIPs/blob/master/EIPS/eip-165.md",
         "fullyImplemented": false,
-        "id": 1924,
+        "id": 2475,
         "linearizedBaseContracts": [
-          1924
+          2475
         ],
         "name": "IERC165",
         "nodeType": "ContractDefinition",
@@ -65,7 +65,7 @@ export const IERC165 =
           {
             "body": null,
             "documentation": "@notice Query if a contract implements an interface\n@param interfaceId The interface identifier, as specified in ERC-165\n@dev Interface identification is specified in ERC-165. This function\nuses less than 30,000 gas.",
-            "id": 1923,
+            "id": 2474,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -73,16 +73,16 @@ export const IERC165 =
             "name": "supportsInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1919,
+              "id": 2470,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1918,
+                  "id": 2469,
                   "name": "interfaceId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1923,
-                  "src": "421:18:13",
+                  "scope": 2474,
+                  "src": "421:18:14",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -90,10 +90,10 @@ export const IERC165 =
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 1917,
+                    "id": 2468,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
-                    "src": "421:6:13",
+                    "src": "421:6:14",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes4",
                       "typeString": "bytes4"
@@ -103,20 +103,20 @@ export const IERC165 =
                   "visibility": "internal"
                 }
               ],
-              "src": "420:20:13"
+              "src": "420:20:14"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1922,
+              "id": 2473,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1921,
+                  "id": 2472,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1923,
-                  "src": "476:4:13",
+                  "scope": 2474,
+                  "src": "476:4:14",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -124,10 +124,10 @@ export const IERC165 =
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1920,
+                    "id": 2471,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "476:4:13",
+                    "src": "476:4:14",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -137,33 +137,33 @@ export const IERC165 =
                   "visibility": "internal"
                 }
               ],
-              "src": "475:6:13"
+              "src": "475:6:14"
             },
-            "scope": 1924,
-            "src": "394:88:13",
+            "scope": 2475,
+            "src": "394:88:14",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 1925,
-        "src": "122:362:13"
+        "scope": 2476,
+        "src": "122:362:14"
       }
     ],
-    "src": "0:485:13"
+    "src": "0:485:14"
   },
   "legacyAST": {
     "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
     "exportedSymbols": {
       "IERC165": [
-        1924
+        2475
       ]
     },
-    "id": 1925,
+    "id": 2476,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1916,
+        "id": 2467,
         "literals": [
           "solidity",
           "^",
@@ -171,7 +171,7 @@ export const IERC165 =
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:13"
+        "src": "0:24:14"
       },
       {
         "baseContracts": [],
@@ -179,9 +179,9 @@ export const IERC165 =
         "contractKind": "interface",
         "documentation": "@title IERC165\n@dev https://github.com/ethereum/EIPs/blob/master/EIPS/eip-165.md",
         "fullyImplemented": false,
-        "id": 1924,
+        "id": 2475,
         "linearizedBaseContracts": [
-          1924
+          2475
         ],
         "name": "IERC165",
         "nodeType": "ContractDefinition",
@@ -189,7 +189,7 @@ export const IERC165 =
           {
             "body": null,
             "documentation": "@notice Query if a contract implements an interface\n@param interfaceId The interface identifier, as specified in ERC-165\n@dev Interface identification is specified in ERC-165. This function\nuses less than 30,000 gas.",
-            "id": 1923,
+            "id": 2474,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -197,16 +197,16 @@ export const IERC165 =
             "name": "supportsInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1919,
+              "id": 2470,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1918,
+                  "id": 2469,
                   "name": "interfaceId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1923,
-                  "src": "421:18:13",
+                  "scope": 2474,
+                  "src": "421:18:14",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -214,10 +214,10 @@ export const IERC165 =
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 1917,
+                    "id": 2468,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
-                    "src": "421:6:13",
+                    "src": "421:6:14",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes4",
                       "typeString": "bytes4"
@@ -227,20 +227,20 @@ export const IERC165 =
                   "visibility": "internal"
                 }
               ],
-              "src": "420:20:13"
+              "src": "420:20:14"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1922,
+              "id": 2473,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1921,
+                  "id": 2472,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1923,
-                  "src": "476:4:13",
+                  "scope": 2474,
+                  "src": "476:4:14",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -248,10 +248,10 @@ export const IERC165 =
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1920,
+                    "id": 2471,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "476:4:13",
+                    "src": "476:4:14",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -261,26 +261,26 @@ export const IERC165 =
                   "visibility": "internal"
                 }
               ],
-              "src": "475:6:13"
+              "src": "475:6:14"
             },
-            "scope": 1924,
-            "src": "394:88:13",
+            "scope": 2475,
+            "src": "394:88:14",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 1925,
-        "src": "122:362:13"
+        "scope": 2476,
+        "src": "122:362:14"
       }
     ],
-    "src": "0:485:13"
+    "src": "0:485:14"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+    "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.0-beta.0",
-  "updatedAt": "2018-09-20T03:48:43.555Z"
+  "schemaVersion": "3.0.0-beta.1",
+  "updatedAt": "2018-10-19T20:14:01.414Z"
 }

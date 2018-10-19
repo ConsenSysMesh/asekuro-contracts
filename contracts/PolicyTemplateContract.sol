@@ -1,6 +1,6 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.24;
 
-interface PolicyContract {
+interface PolicyTemplateContract {
     /// Activate a policy
     function registerPolicyStart(
         bytes32 policyId,
@@ -18,12 +18,13 @@ interface PolicyContract {
 
     /// details of claim submission get stored on-chain in claims registry
     /// Claims registry must track and record every execution of claim
-    function registerClaim(
-        bytes32 policyId,
-        bytes32 coverageCondition,
-        bytes32 outcome,
-        address reporter
-    ) public view returns (uint);
+    /// TODO
+    // function registerClaim(
+    //     bytes32 policyId,
+    //     bytes32 coverageCondition,
+    //     bytes32 outcome,
+    //     address reporter
+    // ) public view returns (uint);
 
     /// Should be easy to determine: length * premium payment
     function getExpectedPremiumPaid(
@@ -42,8 +43,8 @@ interface PolicyContract {
     ) public view returns (uint);
 
     /// you could potentially have different oracles for each coverage condition
-    function getResolver(
-        bytes32 coverageCondition
-    ) public view returns (address);
+    // function getResolver(
+    //     bytes32 coverageCondition
+    // ) public view returns (address);
 
 }

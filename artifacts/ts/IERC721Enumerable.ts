@@ -340,14 +340,14 @@ export const IERC721Enumerable =
     "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol",
     "exportedSymbols": {
       "IERC721Enumerable": [
-        3941
+        4550
       ]
     },
-    "id": 3942,
+    "id": 4551,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3916,
+        "id": 4525,
         "literals": [
           "solidity",
           "^",
@@ -355,16 +355,16 @@ export const IERC721Enumerable =
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:25"
+        "src": "0:24:27"
       },
       {
         "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
         "file": "./IERC721.sol",
-        "id": 3917,
+        "id": 4526,
         "nodeType": "ImportDirective",
-        "scope": 3942,
-        "sourceUnit": 3915,
-        "src": "26:23:25",
+        "scope": 4551,
+        "sourceUnit": 4524,
+        "src": "26:23:27",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -374,33 +374,33 @@ export const IERC721Enumerable =
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 3918,
+              "id": 4527,
               "name": "IERC721",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3914,
-              "src": "241:7:25",
+              "referencedDeclaration": 4523,
+              "src": "241:7:27",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IERC721_$3914",
+                "typeIdentifier": "t_contract$_IERC721_$4523",
                 "typeString": "contract IERC721"
               }
             },
-            "id": 3919,
+            "id": 4528,
             "nodeType": "InheritanceSpecifier",
-            "src": "241:7:25"
+            "src": "241:7:27"
           }
         ],
         "contractDependencies": [
-          1924,
-          3914
+          2475,
+          4523
         ],
         "contractKind": "contract",
         "documentation": "@title ERC-721 Non-Fungible Token Standard, optional enumeration extension\n@dev See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md",
         "fullyImplemented": false,
-        "id": 3941,
+        "id": 4550,
         "linearizedBaseContracts": [
-          3941,
-          3914,
-          1924
+          4550,
+          4523,
+          2475
         ],
         "name": "IERC721Enumerable",
         "nodeType": "ContractDefinition",
@@ -408,7 +408,7 @@ export const IERC721Enumerable =
           {
             "body": null,
             "documentation": null,
-            "id": 3924,
+            "id": 4533,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -416,23 +416,23 @@ export const IERC721Enumerable =
             "name": "totalSupply",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3920,
+              "id": 4529,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "273:2:25"
+              "src": "273:2:27"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3923,
+              "id": 4532,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3922,
+                  "id": 4531,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3924,
-                  "src": "297:7:25",
+                  "scope": 4533,
+                  "src": "297:7:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -440,10 +440,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3921,
+                    "id": 4530,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "297:7:25",
+                    "src": "297:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -453,10 +453,10 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "296:9:25"
+              "src": "296:9:27"
             },
-            "scope": 3941,
-            "src": "253:53:25",
+            "scope": 4550,
+            "src": "253:53:27",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -464,7 +464,7 @@ export const IERC721Enumerable =
           {
             "body": null,
             "documentation": null,
-            "id": 3933,
+            "id": 4542,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -472,16 +472,16 @@ export const IERC721Enumerable =
             "name": "tokenOfOwnerByIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3929,
+              "id": 4538,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3926,
+                  "id": 4535,
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3933,
-                  "src": "343:13:25",
+                  "scope": 4542,
+                  "src": "343:13:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -489,10 +489,10 @@ export const IERC721Enumerable =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3925,
+                    "id": 4534,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "343:7:25",
+                    "src": "343:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -503,11 +503,11 @@ export const IERC721Enumerable =
                 },
                 {
                   "constant": false,
-                  "id": 3928,
+                  "id": 4537,
                   "name": "index",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3933,
-                  "src": "362:13:25",
+                  "scope": 4542,
+                  "src": "362:13:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -515,10 +515,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3927,
+                    "id": 4536,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "362:7:25",
+                    "src": "362:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -528,20 +528,20 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "337:42:25"
+              "src": "337:42:27"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3932,
+              "id": 4541,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3931,
+                  "id": 4540,
                   "name": "tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3933,
-                  "src": "413:15:25",
+                  "scope": 4542,
+                  "src": "413:15:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -549,10 +549,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3930,
+                    "id": 4539,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "413:7:25",
+                    "src": "413:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -562,10 +562,10 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "412:17:25"
+              "src": "412:17:27"
             },
-            "scope": 3941,
-            "src": "309:121:25",
+            "scope": 4550,
+            "src": "309:121:27",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -573,7 +573,7 @@ export const IERC721Enumerable =
           {
             "body": null,
             "documentation": null,
-            "id": 3940,
+            "id": 4549,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -581,16 +581,16 @@ export const IERC721Enumerable =
             "name": "tokenByIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3936,
+              "id": 4545,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3935,
+                  "id": 4544,
                   "name": "index",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3940,
-                  "src": "456:13:25",
+                  "scope": 4549,
+                  "src": "456:13:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -598,10 +598,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3934,
+                    "id": 4543,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "456:7:25",
+                    "src": "456:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -611,20 +611,20 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "455:15:25"
+              "src": "455:15:27"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3939,
+              "id": 4548,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3938,
+                  "id": 4547,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3940,
-                  "src": "492:7:25",
+                  "scope": 4549,
+                  "src": "492:7:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -632,10 +632,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3937,
+                    "id": 4546,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "492:7:25",
+                    "src": "492:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -645,33 +645,33 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "491:9:25"
+              "src": "491:9:27"
             },
-            "scope": 3941,
-            "src": "434:67:25",
+            "scope": 4550,
+            "src": "434:67:27",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 3942,
-        "src": "211:292:25"
+        "scope": 4551,
+        "src": "211:292:27"
       }
     ],
-    "src": "0:504:25"
+    "src": "0:504:27"
   },
   "legacyAST": {
     "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol",
     "exportedSymbols": {
       "IERC721Enumerable": [
-        3941
+        4550
       ]
     },
-    "id": 3942,
+    "id": 4551,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3916,
+        "id": 4525,
         "literals": [
           "solidity",
           "^",
@@ -679,16 +679,16 @@ export const IERC721Enumerable =
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:25"
+        "src": "0:24:27"
       },
       {
         "absolutePath": "/Users/tyndall/Documents/Projects/asekuro-contracts-reloaded/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
         "file": "./IERC721.sol",
-        "id": 3917,
+        "id": 4526,
         "nodeType": "ImportDirective",
-        "scope": 3942,
-        "sourceUnit": 3915,
-        "src": "26:23:25",
+        "scope": 4551,
+        "sourceUnit": 4524,
+        "src": "26:23:27",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -698,33 +698,33 @@ export const IERC721Enumerable =
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 3918,
+              "id": 4527,
               "name": "IERC721",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3914,
-              "src": "241:7:25",
+              "referencedDeclaration": 4523,
+              "src": "241:7:27",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IERC721_$3914",
+                "typeIdentifier": "t_contract$_IERC721_$4523",
                 "typeString": "contract IERC721"
               }
             },
-            "id": 3919,
+            "id": 4528,
             "nodeType": "InheritanceSpecifier",
-            "src": "241:7:25"
+            "src": "241:7:27"
           }
         ],
         "contractDependencies": [
-          1924,
-          3914
+          2475,
+          4523
         ],
         "contractKind": "contract",
         "documentation": "@title ERC-721 Non-Fungible Token Standard, optional enumeration extension\n@dev See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md",
         "fullyImplemented": false,
-        "id": 3941,
+        "id": 4550,
         "linearizedBaseContracts": [
-          3941,
-          3914,
-          1924
+          4550,
+          4523,
+          2475
         ],
         "name": "IERC721Enumerable",
         "nodeType": "ContractDefinition",
@@ -732,7 +732,7 @@ export const IERC721Enumerable =
           {
             "body": null,
             "documentation": null,
-            "id": 3924,
+            "id": 4533,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -740,23 +740,23 @@ export const IERC721Enumerable =
             "name": "totalSupply",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3920,
+              "id": 4529,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "273:2:25"
+              "src": "273:2:27"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3923,
+              "id": 4532,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3922,
+                  "id": 4531,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3924,
-                  "src": "297:7:25",
+                  "scope": 4533,
+                  "src": "297:7:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -764,10 +764,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3921,
+                    "id": 4530,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "297:7:25",
+                    "src": "297:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -777,10 +777,10 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "296:9:25"
+              "src": "296:9:27"
             },
-            "scope": 3941,
-            "src": "253:53:25",
+            "scope": 4550,
+            "src": "253:53:27",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -788,7 +788,7 @@ export const IERC721Enumerable =
           {
             "body": null,
             "documentation": null,
-            "id": 3933,
+            "id": 4542,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -796,16 +796,16 @@ export const IERC721Enumerable =
             "name": "tokenOfOwnerByIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3929,
+              "id": 4538,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3926,
+                  "id": 4535,
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3933,
-                  "src": "343:13:25",
+                  "scope": 4542,
+                  "src": "343:13:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -813,10 +813,10 @@ export const IERC721Enumerable =
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3925,
+                    "id": 4534,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "343:7:25",
+                    "src": "343:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -827,11 +827,11 @@ export const IERC721Enumerable =
                 },
                 {
                   "constant": false,
-                  "id": 3928,
+                  "id": 4537,
                   "name": "index",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3933,
-                  "src": "362:13:25",
+                  "scope": 4542,
+                  "src": "362:13:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -839,10 +839,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3927,
+                    "id": 4536,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "362:7:25",
+                    "src": "362:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -852,20 +852,20 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "337:42:25"
+              "src": "337:42:27"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3932,
+              "id": 4541,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3931,
+                  "id": 4540,
                   "name": "tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3933,
-                  "src": "413:15:25",
+                  "scope": 4542,
+                  "src": "413:15:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -873,10 +873,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3930,
+                    "id": 4539,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "413:7:25",
+                    "src": "413:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -886,10 +886,10 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "412:17:25"
+              "src": "412:17:27"
             },
-            "scope": 3941,
-            "src": "309:121:25",
+            "scope": 4550,
+            "src": "309:121:27",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -897,7 +897,7 @@ export const IERC721Enumerable =
           {
             "body": null,
             "documentation": null,
-            "id": 3940,
+            "id": 4549,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -905,16 +905,16 @@ export const IERC721Enumerable =
             "name": "tokenByIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3936,
+              "id": 4545,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3935,
+                  "id": 4544,
                   "name": "index",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3940,
-                  "src": "456:13:25",
+                  "scope": 4549,
+                  "src": "456:13:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -922,10 +922,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3934,
+                    "id": 4543,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "456:7:25",
+                    "src": "456:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -935,20 +935,20 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "455:15:25"
+              "src": "455:15:27"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3939,
+              "id": 4548,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3938,
+                  "id": 4547,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3940,
-                  "src": "492:7:25",
+                  "scope": 4549,
+                  "src": "492:7:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -956,10 +956,10 @@ export const IERC721Enumerable =
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3937,
+                    "id": 4546,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "492:7:25",
+                    "src": "492:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -969,26 +969,26 @@ export const IERC721Enumerable =
                   "visibility": "internal"
                 }
               ],
-              "src": "491:9:25"
+              "src": "491:9:27"
             },
-            "scope": 3941,
-            "src": "434:67:25",
+            "scope": 4550,
+            "src": "434:67:27",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 3942,
-        "src": "211:292:25"
+        "scope": 4551,
+        "src": "211:292:27"
       }
     ],
-    "src": "0:504:25"
+    "src": "0:504:27"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+    "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.0-beta.0",
-  "updatedAt": "2018-09-20T03:48:43.577Z"
+  "schemaVersion": "3.0.0-beta.1",
+  "updatedAt": "2018-10-19T20:14:01.435Z"
 }

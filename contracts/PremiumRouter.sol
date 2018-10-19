@@ -1,7 +1,7 @@
 pragma solidity ^0.4.18;
 
 import "./PolicyRegistry.sol";
-import "./PolicyContract.sol";
+import "./PolicyTemplateContract.sol";
 import "../node_modules/openzeppelin-solidity/contracts/lifecycle/Pausable.sol";
 import "../node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 
@@ -44,10 +44,10 @@ contract PremiumRouter is Pausable {
         require(tokenAddress != address(0));
         require(amount > 0);
 
-        address policyContract = policyRegistry.getPolicyContract(policyId);
+        address policyContract = policyRegistry.getPolicyTemplate(policyId);
         address carrier = policyRegistry.getCarrier(policyId);
 
-        if (!PolicyContract(policyContract).registerPayment(
+        if (!PolicyTemplateContract(policyContract).registerPayment(
             policyId,
             msg.sender,
             carrier,

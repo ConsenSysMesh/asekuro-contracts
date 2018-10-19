@@ -1,6 +1,6 @@
 module.exports = (deployer, network, accounts) => {
     const ContractRegistry = artifacts.require("ContractRegistry");
-    const SingleCoverageExamplePolicy = artifacts.require("./SingleCoverageExamplePolicy.sol");
+    const RentersPolicy = artifacts.require("RentersPolicy");
 
-    deployer.deploy(SingleCoverageExamplePolicy, ContractRegistry.address);
+    deployer.deploy(RentersPolicy, ContractRegistry.address);
 }

@@ -90,11 +90,7 @@ contract AsekuroBroker is Pausable, Ownable {
             );
         }
 
-        // transfer underwriter feee to underwriter
-        // TODO
-
-        // transfer relayer fee to relayer
-        // TODO
+        // TODO implement fee transfer here
 
         emit LogPolicyOrderFilled(
             policyOrder.declaration.policyId,

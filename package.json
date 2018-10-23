@@ -1,7 +1,7 @@
 {
   "name": "@asekuro/contracts",
   "version": "0.0.1",
-  "description": "",
+  "description": "Solidity contracts and artifacts for Asekuro protocol",
   "main": "dist/artifacts/index.js",
   "typings": "dist/types/artifacts/index.d.ts",
   "file": [
@@ -24,7 +24,7 @@
     "test": "npm run compile; npm run generate-typings; npm run transpile; npm run migrate; truffle test",
     "prepublishOnly": "npm run dist"
   },
-  "author": "",
+  "author": "Matt Tyndall <matt.tyndall@consensys.net>",
   "license": "ISC",
   "dependencies": {
     "openzeppelin-solidity": "^2.0.0-rc.1",

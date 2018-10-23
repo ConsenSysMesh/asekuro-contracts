@@ -171,21 +171,13 @@ contract RentersPolicy {
         // uintParams[5] - period;
         uint[6] memory uintParams = unpackParametersFromBytes(parameters);
 
-        // (claimTokenIndex, premiumTokenIndex, premium, deductible, rawPeriodUnitType, period) =
-        //     unpackParametersFromBytes(parameters);
-
         // TODO lookup token address
-        address claimTokenAddr = address(0);
-        address premiumTokenAddr = address(0);
+        address claimTokenAddr = contractRegistry.tokenRegistry().getTokenAddressByIndex(uintParams[0]);
+        address premiumTokenAddr = contractRegistry.tokenRegistry().getTokenAddressByIndex(uintParams[1]);
 
         uint[4] memory limits = unpackLimitsFromBytes(parameters);
         
-        // PeriodUnitType periodUnitType = PeriodUnitType(rawPeriodUnitType);
         PeriodUnitType periodUnitType = PeriodUnitType(uintParams[4]);
-
-        // uint bindingBlockTimestamp = contractRegistry.policyRegistry().getBindingBlockTimestamp(policyId);
-        // uint policyLengthInSeconds = period.mul(getPeriodUnitLengthInSeconds(periodUnitType));
-        // uint policyEndUnixTimestamp = policyLengthInSeconds.add(bindingBlockTimestamp);
 
         uint bindingBlockTimestamp = contractRegistry.policyRegistry().getBindingBlockTimestamp(policyId);
         uint policyLengthInSeconds = uintParams[5].mul(getPeriodUnitLengthInSeconds(periodUnitType));

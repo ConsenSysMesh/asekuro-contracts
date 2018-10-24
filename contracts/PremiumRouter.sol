@@ -5,6 +5,11 @@ import "./PolicyTemplateContract.sol";
 import "../node_modules/openzeppelin-solidity/contracts/lifecycle/Pausable.sol";
 import "../node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 
+/**
+ * Based on Dharma's RepaymentRouter (https://github.com/dharmaprotocol/charta/blob/master/contracts/RepaymentRouter.sol)
+ * The Premium router allows an insured to make a premium payment for a specified policyId.
+ * Payments made to this contract will be routed to the bearer of a policy's NFT.
+ */
 contract PremiumRouter is Pausable {
     PolicyRegistry public policyRegistry;
 

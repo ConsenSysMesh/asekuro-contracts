@@ -3,6 +3,11 @@ pragma solidity ^0.4.24;
 import "../node_modules/openzeppelin-solidity/contracts/lifecycle/Pausable.sol";
 import "../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol";
 
+/**
+ * Based on Dharma's DebtRegistry (https://github.com/dharmaprotocol/charta/blob/master/contracts/DebtRegistry.sol)
+ * The PolicyRegistry maintains the recorded terms of a policy bound through Asekuro.
+ * Inserting a new Entry should only be called by AsekuroBroker.
+ */
 contract PolicyRegistry is Pausable {
     using SafeMath for uint;
 

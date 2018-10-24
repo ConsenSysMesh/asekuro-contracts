@@ -7,6 +7,15 @@ import "../node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol";
 import "../node_modules/openzeppelin-solidity/contracts/lifecycle/Pausable.sol";
 import "../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol";
 
+/**
+ * Based on Dharma's DebtKernel(https://github.com/dharmaprotocol/charta/blob/master/contracts/DebtKernel.sol) 
+ * AsekuroBroker is the main entry to interacting with the protocol. PolicyOrders can be submitted
+ * to the fillPolicyOrder function where they are validated and eventually bound into the PolicyRegistry.
+ *
+ * TODO:
+ * - Implement PolicyOrder invariant checks
+ * - Implement fee transfers
+ */
 contract AsekuroBroker is Pausable, Ownable {
     using SafeMath for uint;
 
